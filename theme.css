@@ -1,0 +1,184 @@
+.cover-picture {
+    height: 400px;
+    background: url("files/coding.jpg") fixed;
+    position: relative;
+    top: 0;
+}
+
+.profile-image {
+    border: 5px solid white;
+    position: relative;
+    width: 250px;
+    left: 37%;
+    /*top: 250px;*/
+    top: 100px;
+}
+
+.intro-section {
+    background: cornflowerblue;
+    height: 2000px;
+}
+
+
+.terminal-window {
+    position: relative;
+    top: 40px;
+    left: 10%;
+    width: 80%;
+    padding: 20px 0;
+    /*background: black;*/
+    border-radius: 6px 6px;
+}
+
+.terminal-window .bar {
+    position: relative;
+    background: white;
+    height: 19px;
+    width: 100%;
+    margin: 0;
+    border-radius: 6px 6px 0 0;
+}
+
+.terminal-window .title {
+    display: inline-block;
+    position: relative;
+    left: 42%;
+    font-family: monospace;
+}
+
+.terminal-window .content {
+    position: relative;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    font-family: monospace;
+    font-size: 20px;
+    background: black;
+    border-radius: 0 6px;
+}
+
+.terminal-window .content.education {
+    background: url("files/rice-1.jpg") fixed;
+}
+
+.circle {
+     background: #ff475a;
+     width: 10px;
+     height: 10px;
+     position: relative;
+     left: 5px;
+     border-radius: 50%;
+     display: inline-block;
+ }
+
+.circle.bar-green {
+    background: #63ff52;
+}
+
+.circle.bar-yellow {
+    background: #ffda40;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: dodgerblue;
+}
+
+.green {
+    color: green;
+}
+
+.highlight-green {
+    background-color: green;
+    display: inline-block;
+}
+
+.black-on-white {
+    background-color: white;
+    color: black;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.intro-coursework {
+    width: 80%;
+    background: floralwhite;
+    position: relative;
+    left: 10%;
+    margin: 80px 0;
+    height: 500px;
+}
+
+.intro-coursework .pic-rice {
+    height: 100px;
+    position: relative;
+    border-radius: 50%;
+    top: 30px;
+    left: 20px;
+}
+
+.intro-coursework .title {
+    font-weight: bold;
+    font-size: 40px;
+    color: gray;
+    position: relative;
+    left: 22%;
+    top: 30px;
+}
+
+hr {
+    display: block;
+    width: 70%;
+    position: relative;
+    left: 20%;
+    top: -15px;
+    border-top: 2px solid #ccc;
+    margin: 1em 0;
+}
+
+.intro-coursework .title.sub {
+    font-size: 15px;
+    top: -25px;
+    left: 38%;
+    font-weight: 400;
+}
+
+.course {
+    width: 90%;
+    position: relative;
+    left: 5%;
+    /*background: lightslategray;*/
+    color: black;
+    padding: 10px;
+}
+
+.course .skill {
+    border-radius: 20%;
+    padding: 3px 10px;
+    position: relative;
+    right: -350px;
+}
+
+.skill.green {
+    background: limegreen;
+    color: white;
+}
+
+.intro-coursework .col {
+    position: relative;
+    display: inline-block;
+    background: red;
+    margin: 15px;
+    width: 40%;
+
+}
+
+.intro-coursework .col.right {
+    position: relative;
+    display: inline-block;
+    background: green;
+    width: 40%;
+}
