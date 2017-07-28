@@ -37,13 +37,11 @@
     left: 10%;
     width: 80%;
     padding: 20px 0;
-    /*background: black;*/
-    border-radius: 6px 6px;
 }
 
 .terminal-window .bar {
     position: relative;
-    background: white;
+    background: gainsboro;
     height: 19px;
     width: 100%;
     margin: 0;
@@ -65,9 +63,14 @@
     font-family: monospace;
     font-size: 20px;
     background: black;
-    border-radius: 0 6px;
+    border-radius: 0 0 6px 6px;
 }
 
+.education {
+    position: relative;
+    top: 100px;
+    background: gainsboro;
+}
 .terminal-window .content.education {
     background: url("files/rice-1.jpg") fixed;
 }
@@ -90,6 +93,23 @@
     background: #ffda40;
 }
 
+.education {
+    position: relative;
+    top: 100px;
+    background: gainsboro;
+    padding: 20px;
+    height: 400px;
+}
+
+.education .title {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+/*.terminal-window .content.education {*/
+    /*background: url("files/rice-1.jpg") fixed;*/
+/*}*/
+
 .red {
     color: red;
 }
@@ -100,6 +120,10 @@
 
 .green {
     color: green;
+}
+
+.circle.bar-yellow {
+    background: #ffda40;
 }
 
 .highlight-green {
@@ -123,13 +147,21 @@
     height: 500px;
 }
 
-.intro-coursework .pic-rice {
-    height: 100px;
-    position: relative;
-    border-radius: 50%;
-    top: 30px;
-    left: 20px;
-}
+/*.intro-coursework {*/
+    /*width: 80%;*/
+    /*background: floralwhite;*/
+    /*position: relative;*/
+    /*left: 10%;*/
+    /*margin: 80px 0;*/
+    /*height: 500px;*/
+/*}*/
+/*.intro-coursework .pic-rice {*/
+    /*height: 100px;*/
+    /*position: relative;*/
+    /*border-radius: 50%;*/
+    /*top: 30px;*/
+    /*left: 20px;*/
+/*}*/
 
 .intro-coursework .title {
     font-weight: bold;
@@ -157,6 +189,12 @@ hr {
     font-weight: 400;
 }
 
+/*.intro-coursework .title.sub {*/
+    /*font-size: 15px;*/
+    /*top: -25px;*/
+    /*left: 38%;*/
+    /*font-weight: 400;*/
+/*}*/
 .course {
     width: 90%;
     position: relative;
@@ -184,7 +222,6 @@ hr {
     background: red;
     margin: 15px;
     width: 40%;
-
 }
 
 .intro-coursework .col.right {
