@@ -1,28 +1,39 @@
-.cover-picture {
-    height: 400px;
-    background: url("files/coding.jpg") fixed;
-    position: relative;
-    top: 0;
+.mynavbar {
+    position: fixed;
+    background: black;
+    height: 80px;
+    width: 100%;
+    z-index: 100;
+    padding: 10px 20px;
+    opacity: 0.85;
+}
+
+.mynavbar .title {
+    height: 60px;
+    padding: 10px;
+    color: white;
+    /*font-weight: bold;*/
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .profile-image {
-    border: 5px solid white;
-    position: relative;
-    width: 250px;
-    left: 37%;
-    /*top: 250px;*/
-    top: 100px;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 0 0 10px;
 }
 
 .intro-section {
-    background: cornflowerblue;
+    background: white;
     height: 2000px;
 }
 
-
 .terminal-window {
     position: relative;
-    top: 40px;
+    top: 80px;
     left: 10%;
     width: 80%;
     padding: 20px 0;
