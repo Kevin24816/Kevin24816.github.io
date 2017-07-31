@@ -13,7 +13,7 @@
     padding: 10px;
     color: white;
     /*font-weight: bold;*/
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
@@ -55,7 +55,7 @@
     font-family: monospace;
 }
 
-.terminal-window .content {
+.terminal-window .body {
     position: relative;
     color: white;
     width: 100%;
@@ -66,24 +66,50 @@
     border-radius: 0 0 6px 6px;
 }
 
+
 .education {
     position: relative;
     top: 100px;
-    background: gainsboro;
-}
-.terminal-window .content.education {
+    /*background: gainsboro;*/
+    height: 400px;
     background: url("files/rice-1.jpg") fixed;
 }
 
+.education .content {
+    background-color: #4C5364;
+    opacity: .90;
+    height: 400px;
+    padding: 20px;
+}
+
+.education .title {
+    opacity: 1;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    left: 0;
+    right: 0;
+}
+
+.education .body {
+    opacity: 1;
+    color: white;
+
+}
+
+/*component styles */
+
 .circle {
-     background: #ff475a;
-     width: 10px;
-     height: 10px;
-     position: relative;
-     left: 5px;
-     border-radius: 50%;
-     display: inline-block;
- }
+    background: #ff475a;
+    width: 10px;
+    height: 10px;
+    position: relative;
+    left: 5px;
+    border-radius: 50%;
+    display: inline-block;
+}
 
 .circle.bar-green {
     background: #63ff52;
@@ -92,23 +118,6 @@
 .circle.bar-yellow {
     background: #ffda40;
 }
-
-.education {
-    position: relative;
-    top: 100px;
-    background: gainsboro;
-    padding: 20px;
-    height: 400px;
-}
-
-.education .title {
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-}
-/*.terminal-window .content.education {*/
-    /*background: url("files/rice-1.jpg") fixed;*/
-/*}*/
 
 .red {
     color: red;
