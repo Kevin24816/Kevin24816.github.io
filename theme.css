@@ -99,6 +99,25 @@
 
 }
 
+.education .content hr {
+    position: relative;
+    left: 30%;
+    width: 40%;
+    top: -10px;
+
+
+    /*top: -2px;*/
+    /*left: 20%;*/
+
+    /*!*margin-top: 0.5em;*!*/
+    /*!*text-align: center;*!*/
+    /*!*margin-right: auto;*!*/
+    /*border-style: inset;*/
+    /*border-width: 1px;*/
+    /*width: 550px;*/
+    /*margin: 0;*/
+}
+
 /*component styles */
 
 .circle {
