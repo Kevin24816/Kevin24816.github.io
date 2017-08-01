@@ -28,7 +28,7 @@
 
 .intro-section {
     top: 80px;
-    padding: 90px 0 10px 0;
+    padding: 90px 10% 10px 10%;
     /*height: 500px;*/
     background: gainsboro;
 }
@@ -96,13 +96,7 @@
     color: white;
     left: 0;
     right: 0;
-}
-
-.education .body {
-    opacity: 1;
-    color: white;
-    font-size: 17px;
-    font-family: 'Karla', sans-serif;
+    padding: 1% 0 0 0;
 }
 
 .education .content hr {
@@ -110,20 +104,25 @@
     left: 30%;
     width: 40%;
     top: -10px;
+}
 
-    /*top: -2px;*/
-    /*left: 20%;*/
+.education .body {
+    opacity: 1;
+    color: white;
+    font-size: 17px;
+    font-family: 'Karla', sans-serif;
+    padding: 1% 20%;
+}
 
-    /*!*margin-top: 0.5em;*!*/
-    /*!*text-align: center;*!*/
-    /*!*margin-right: auto;*!*/
-    /*border-style: inset;*/
-    /*border-width: 1px;*/
-    /*width: 550px;*/
-    /*margin: 0;*/
+.education .coursework {
+    padding: 30px 0 0 0;
 }
 
 /*component styles */
+
+.right {
+    float: right;
+}
 
 .circle {
     background: #ff475a;
@@ -171,40 +170,6 @@
     font-weight: bold;
 }
 
-.intro-coursework {
-    width: 80%;
-    background: floralwhite;
-    position: relative;
-    left: 10%;
-    margin: 80px 0;
-    height: 500px;
-}
-
-/*.intro-coursework {*/
-    /*width: 80%;*/
-    /*background: floralwhite;*/
-    /*position: relative;*/
-    /*left: 10%;*/
-    /*margin: 80px 0;*/
-    /*height: 500px;*/
-/*}*/
-/*.intro-coursework .pic-rice {*/
-    /*height: 100px;*/
-    /*position: relative;*/
-    /*border-radius: 50%;*/
-    /*top: 30px;*/
-    /*left: 20px;*/
-/*}*/
-
-.intro-coursework .title {
-    font-weight: bold;
-    font-size: 40px;
-    color: gray;
-    position: relative;
-    left: 22%;
-    top: 30px;
-}
-
 hr {
     display: block;
     width: 70%;
@@ -215,19 +180,7 @@ hr {
     margin: 1em 0;
 }
 
-.intro-coursework .title.sub {
-    font-size: 15px;
-    top: -25px;
-    left: 38%;
-    font-weight: 400;
-}
 
-/*.intro-coursework .title.sub {*/
-    /*font-size: 15px;*/
-    /*top: -25px;*/
-    /*left: 38%;*/
-    /*font-weight: 400;*/
-/*}*/
 .course {
     width: 90%;
     position: relative;
@@ -247,19 +200,4 @@ hr {
 .skill.green {
     background: limegreen;
     color: white;
-}
-
-.intro-coursework .col {
-    position: relative;
-    display: inline-block;
-    background: red;
-    margin: 15px;
-    width: 40%;
-}
-
-.intro-coursework .col.right {
-    position: relative;
-    display: inline-block;
-    background: green;
-    width: 40%;
 }
