@@ -28,14 +28,14 @@
 
 .intro-section {
     top: 80px;
-    padding: 90px 10% 10px 10%;
+    padding: 90px 0 10px 0;
     background: gainsboro;
 }
 
 .terminal-window {
-    /*position: relative;*/
-    margin: 0 12.5%;
-    width: 75%;
+    margin: 0 auto;
+    min-width: 75%;
+    max-width: 90%;
     padding: 20px 0;
 }
 
@@ -84,8 +84,8 @@
 }
 
 .education .content {
-    width: 95%;
-    margin: 20px 2.5%;
+    min-width: 95%;
+    margin: 20px auto;
 }
 
 .education .title {
