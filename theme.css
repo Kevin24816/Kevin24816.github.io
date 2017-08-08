@@ -80,35 +80,34 @@
 }
 
 .education .overlay {
-    background-color: #4C5364;
-    opacity: .90;
+    background: rgba(30, 33, 39, 0.80);
     padding: 20px 0;
 }
 
-.education .content {
-    margin: 20px auto;
+.content {
+    color: white;
+    padding: 10px 0;
 }
 
+/*EDUCATION*/
 .education .title {
-    opacity: 1;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     font-weight: bold;
-    color: #ffffff;
     padding: 1% 0 0 0;
 }
 
-.education .content hr {
+.content hr {
     position: relative;
     left: 5%;
     width: 90%;
     top: -10px;
+    background-color: white;
+    border-color: white;
 }
 
 .education .body {
-    opacity: 1;
-    color: white;
     font-size: 17px;
     font-family: 'Karla', sans-serif;
     max-width: 90%;
@@ -128,26 +127,16 @@
 .work-experience {
     background: url("files/jpmc.jpg") fixed;
     background-size: cover;
+    position: relative;
     height: 400px;
-}
-.work-experience .overlay {
-    background-color: lightseagreen;
-    height: 400px;
-    opacity: .7;
 }
 
-.work-experience .body {
-    opacity: 1;
-    color: white;
-    font-size: 17px;
-    font-family: 'Karla', sans-serif;
-    max-width: 90%;
-    min-width: 75%;
-    margin: auto;
+.work-experience .overlay {
+    background: rgba(32, 178, 170, 0.8);
+    height: 400px;
 }
 
 .work-experience .title {
-    opacity: 1;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
@@ -156,11 +145,29 @@
     padding: 1% 0 0 0;
 }
 
+.work-experience .body {
+    /*font-size: 15px;*/
+    height: 200px;
+    margin: 0 5%;
+    background: rgba(30, 33, 39, 0.60);
+}
 
 /*component styles */
 
+.left {
+    width: 40%;
+    display: inline-block;
+    float: left;
+    padding: 10px 2%;
+    /*background-color: blue;*/
+}
+
 .right {
+    display: inline-block;
     float: right;
+    /*background-color: red;*/
+    width: 60%;
+    padding: 10px 2%;
 }
 
 .circle {
