@@ -26,10 +26,13 @@
     margin: 0 0 0 10px;
 }
 
-.intro-section {
-    top: 80px;
+.introduction {
+    background: url("files/coding.jpg") fixed;
+}
+
+.introduction .overlay {
     padding: 90px 0 10px 0;
-    background: gainsboro;
+    background: rgba(51, 112, 189, 0.7);
 }
 
 .terminal-window {
@@ -66,7 +69,7 @@
     border-radius: 0 0 6px 6px;
 }
 
-.intro-section .statement {
+.introduction .statement {
     position: relative;
     margin: 0 25px;
 }
