@@ -148,9 +148,18 @@
 
 .work-experience .body {
     padding: 10px 1%;
-    height: 95%;
     margin: 0 5%;
     background: rgba(30, 33, 39, 0.60);
+}
+
+/*PERSONAL PROJECTS*/
+.personal-projects {
+    background: url("files/study.jpg") fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.personal-projects .overlay {
 }
 
 /*component styles */
