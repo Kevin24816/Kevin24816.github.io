@@ -132,7 +132,6 @@
 
 .work-experience .overlay {
     background: rgba(28, 123, 114, 0.8);
-    height: 400px;
 }
 
 .work-experience .title {
@@ -145,7 +144,7 @@
 }
 
 .work-experience .body {
-    /*font-size: 15px;*/
+    padding: 10px 1%;
     height: 95%;
     margin: 0 5%;
     background: rgba(30, 33, 39, 0.60);
@@ -156,7 +155,7 @@
 .left {
     width: 40%;
     display: inline-block;
-    float: left;
+    /*float: left;*/
     padding: 10px 2%;
     /*background-color: blue;*/
 }
