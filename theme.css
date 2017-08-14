@@ -7,28 +7,19 @@
 }
 
 .mynavbar .title {
-    margin: 10px 0;
-    height: 60px;
+    margin: 10px 0 10px 46%;
     padding: 10px;
     color: white;
-    /*font-weight: bold;*/
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
     display: inline-block;
-    position: relative;
-    top: -20px;
-    left: 23%;
 }
 
-.resume-container {
-    display: inline-block;
-    background: #1b6fcd;
-    width: 10%;
-    margin: 5%;
+.mynavbar .menu-icon {
+    color: #ffffff;
+    font-size: 30px;
     position: relative;
-    bottom: 20px;
-    padding: 3px 2.5%;
-    color: white;
+    left: 36%;
 }
 
 .profile-image {
@@ -165,29 +156,33 @@
 }
 
 .contact {
-    background: #0f3085;
+    background: #000000;
     padding: 5px 0;
 }
 
 .icon {
     display: inline-block;
     background-size: 100%;
-    height: 30px;
-    width: 30px;
     text-decoration: none;
     color: white;
     margin: 0 2% 0 0;
 }
 
 .icon-email {
-    background-image:url("files/gmail.ico");
+    height: 27px;
+    width: 27px;
+    background-image:url("files/gmail2.png");
 }
 
 .icon-linkedin {
+    height: 30px;
+    width: 30px;
     background-image: url("files/linkedin.png");
 }
 
 .icon-github {
+    height: 33px;
+    width: 33px;
     background-image: url("files/github.png");
 }
 
