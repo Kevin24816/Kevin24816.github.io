@@ -1,3 +1,7 @@
+.width-adapter {
+    /*padding: 0 200px;*/
+}
+
 .mynavbar {
     position: fixed;
     background: rgba(0, 0, 0, 0.85);
@@ -31,7 +35,7 @@
 }
 
 .introduction {
-    background: url("files/coding.jpg") fixed;
+    background: url("files/mac_screen.jpg") fixed;
 }
 
 .introduction .overlay {
@@ -134,6 +138,10 @@
     background: url("files/jpmc.jpg") fixed;
     background-size: cover;
     position: relative;
+}
+
+.work-experience .border {
+
 }
 
 .work-experience .overlay {
