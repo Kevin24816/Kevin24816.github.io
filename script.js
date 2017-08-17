@@ -6,22 +6,7 @@ $( function() {
     $( "#draggable" ).draggable();
 } );
 
-// TODO: CREATE FUNCTION TO ADJUST CONTENT WIDTHS BASED OFF BROWSER SIZE
-// https://stackoverflow.com/questions/8717506/dynamically-resize-div-based-on-size-of-browser-window
-
-var adjustContentWidth = function() {
-    var width = $(window).width();
-    widthChange = 1200;
-
-    if (width > widthChange) {
-        $(".width-adapter").css( "padding", "0 200px" )
-    } else {
-        $(".width-adapter").css("padding", "0");
-    }
-};
-
-adjustContentWidth();
-
+/* adds event listeners */
 var addEvent = function(object, type, callback) {
     if (object === null || typeof(object) === 'undefined') return;
     if (object.addEventListener) {
@@ -33,11 +18,48 @@ var addEvent = function(object, type, callback) {
     }
 };
 
+/* adjusts width of page */
+var adjustContentWidth = function() {
+    var width = $(window).width();
+    widthChange = 1200;
+
+    if (width > widthChange) {
+        $(".width-adapter").css("padding", "0 200px")
+    } else {
+        $(".width-adapter").css("padding", "0");
+    }
+};
+
+adjustContentWidth();
 addEvent(window, "resize", adjustContentWidth);
 
+/* toogles dropdown menu */
+var dropped = false;
+var toggleDropDown = function(b) {
+    if (b) {
+        dropped = true;
+        $(".mynavbar .dropdown-content").css("display", "block");
+        $(".mynavbar .menu-icon").css("color", "orange");
+    } else {
+        dropped = false;
+        $(".mynavbar .dropdown-content").css("display", "none");
+        $(".mynavbar .menu-icon").css("color", "white");
+    }
+};
 
+var dropdownOnClick = function(event) {
+    if (event.target.classList.contains('menu-icon')) {
+        if (dropped === false) {
+            toggleDropDown(true);
+        } else {
+            toggleDropDown(false);
+        }
+    } else {
+        toggleDropDown(false);
+    }
+};
 
-
+addEvent(window, "click", dropdownOnClick);
 
 
 // TODO: ANIMATE THE TERMINAL WINDOW USING WEBKIT

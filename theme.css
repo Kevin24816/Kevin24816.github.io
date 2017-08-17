@@ -35,13 +35,13 @@
     text-align: right;
 }
 
-.mynavbar .dropdown:hover .dropdown-content {
-    display: block;
-}
+/*.mynavbar .dropdown:hover .dropdown-content  {*/
+    /*display: block;*/
+/*}*/
 
-.mynavbar .dropdown:hover .menu-icon {
-    color: orange;
-}
+/*.mynavbar .dropdown:hover .menu-icon {*/
+    /*color: orange;*/
+/*}*/
 
 .mynavbar .dropdown-content a:hover {
     background: gray;
@@ -53,7 +53,7 @@
     z-index: 1;
     display: none;
     top: 100%;
-    left: -45%; 
+    left: -45%;
     right: 0;
     font-size: 15px;
     font-family: 'Montserrat', sans-serif;
