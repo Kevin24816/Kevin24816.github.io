@@ -11,7 +11,7 @@ $( function() {
 
 var adjustContentWidth = function() {
     var width = $(window).width();
-    widthChange = 1500;
+    widthChange = 1200;
 
     if (width > widthChange) {
         $(".width-adapter").css( "padding", "0 200px" )
@@ -19,6 +19,8 @@ var adjustContentWidth = function() {
         $(".width-adapter").css("padding", "0");
     }
 };
+
+adjustContentWidth();
 
 var addEvent = function(object, type, callback) {
     if (object === null || typeof(object) === 'undefined') return;
@@ -32,6 +34,11 @@ var addEvent = function(object, type, callback) {
 };
 
 addEvent(window, "resize", adjustContentWidth);
+
+
+
+
+
 
 // TODO: ANIMATE THE TERMINAL WINDOW USING WEBKIT
 // https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_popup

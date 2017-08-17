@@ -1,37 +1,71 @@
-.width-adapter {
-    /*padding: 0 200px;*/
-}
-
 .mynavbar {
     position: fixed;
     background: rgba(0, 0, 0, 0.85);
     height: 80px;
     width: 100%;
-    text-align: center;
     z-index: 100;
+    text-align: center;
 }
 
 .mynavbar .title {
     margin: 10px 0;
-    text-align: center;
-    padding: 10px;
+    padding: 10px 0 0 11%;
     color: white;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
+    display: inline-block;
 }
 
-.mynavbar .menu-icon {
-    color: #ffffff;
-    font-size: 30px;
-    text-align: right;
-}
-
-.profile-image {
+.mynavbar .profile-image {
     display: inline-block;
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    /*margin: 0 0 0 10px;*/
+}
+
+.mynavbar .menu-icon {
+    font-size: 25px;
+}
+
+.mynavbar .dropdown {
+    color: white;
+    padding: 30px 4% 20px 4%;
+    float: right;
+    display: inline-block;
+    text-align: right;
+}
+
+.mynavbar .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.mynavbar .dropdown:hover .menu-icon {
+    color: orange;
+}
+
+.mynavbar .dropdown-content a:hover {
+    background: gray;
+}
+
+.mynavbar .dropdown-content {
+    position: absolute;
+    min-width: 40px;
+    z-index: 1;
+    display: none;
+    top: 100%;
+    left: -45%; /* Size */
+    right: 0; /* Size */
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mynavbar .dropdown-content a {
+    display: block;
+    background: rgba(52, 78, 94, 0.90);
+    text-align: left;
+    padding: 5px 5px;
+    text-decoration: none;
+    color: white;
 }
 
 .introduction {
@@ -75,6 +109,7 @@
     font-size: 20px;
     background: black;
     border-radius: 0 0 6px 6px;
+    box-shadow: 2px 2px 15px black;
 }
 
 .introduction .statement {
@@ -166,6 +201,13 @@
 .contact {
     background: #000000;
     padding: 5px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.contact .adjust {
+    position: relative;
+    left: 1.5%;
 }
 
 .icon {
@@ -173,7 +215,7 @@
     background-size: 100%;
     text-decoration: none;
     color: white;
-    margin: 0 2% 0 0;
+    margin: 0 1% 0 0;
 }
 
 .icon-email {
@@ -199,7 +241,7 @@
     display: inline-block;
     position: relative;
     bottom: 10px;
-    right: 2%;
+    right: 1%;
 }
 
 /*!*PERSONAL PROJECTS*!*/
