@@ -110,6 +110,7 @@
     background: black;
     border-radius: 0 0 6px 6px;
     box-shadow: 2px 2px 15px black;
+    height: 400px;
 }
 
 .introduction .statement {
