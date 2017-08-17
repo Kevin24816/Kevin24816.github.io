@@ -53,8 +53,8 @@
     z-index: 1;
     display: none;
     top: 100%;
-    left: -45%; /* Size */
-    right: 0; /* Size */
+    left: -45%; 
+    right: 0;
     font-size: 15px;
     font-family: 'Montserrat', sans-serif;
 }
