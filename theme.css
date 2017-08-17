@@ -35,13 +35,13 @@
     text-align: right;
 }
 
-/*.mynavbar .dropdown:hover .dropdown-content  {*/
-    /*display: block;*/
-/*}*/
+.mynavbar .dropdown:hover .dropdown-content  {
+    display: block;
+}
 
-/*.mynavbar .dropdown:hover .menu-icon {*/
-    /*color: orange;*/
-/*}*/
+.mynavbar .dropdown:hover .menu-icon {
+    color: orange;
+}
 
 .mynavbar .dropdown-content a:hover {
     background: gray;
