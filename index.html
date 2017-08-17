@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <!-- My stylesheet -->
     <link href="theme.css" rel="stylesheet">
+
+    <script src="typed.js/lib/typed.min.js" type="text/javascript"></script>
 </head>
 
 <body style="background-color: slategray;">
@@ -59,11 +61,18 @@
                         &nbsp junior <br>
                         <div class="blue"> > statement </div>
                         <div class="statement">
-                            Hello world! I'm a software developer interested in machine learning, application development,
-                            and web design.
+                            <span class="typed"></span>
                         </div>
-                        <!--I am eager to learn and always ready for <br> &nbsp a challenge. <br>-->
-                        <!--TODO: add flashing cursor here and have the text be typed out-->
+
+                        <script>
+                            var typed = new Typed('.typed', {
+                                strings: ["Hello World!",
+                                    "I'm a software developer interested in machine learning, app development, and web design"],
+                                loop: true,
+                                typeSpeed: 40
+                            });
+                        </script>
+
                     </div>
                 </div>
             </div>
@@ -180,7 +189,7 @@
         <a name="contact"></a>
         <div class="adjust">
                 <div class="title"><b>Contact</b></div>
-                <a target="_blank" href="mailto:qkl1@rice.edu">
+                <a href="mailto:qkl1@rice.edu">
                     <div class="icon icon-email"></div>
                 </a>
                 <a target="_blank" href="https://github.com/Kevin24816">

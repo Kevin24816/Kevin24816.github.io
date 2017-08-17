@@ -61,6 +61,4 @@ var dropdownOnClick = function(event) {
 
 addEvent(window, "click", dropdownOnClick);
 
-
-// TODO: ANIMATE THE TERMINAL WINDOW USING WEBKIT
 // https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_popup
