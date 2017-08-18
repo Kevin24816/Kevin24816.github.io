@@ -62,3 +62,4 @@ var dropdownOnClick = function(event) {
 addEvent(window, 'ontouchstart' in window ? 'touchend' : 'click', dropdownOnClick);
 
 // https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_popup
+// http://jsfiddle.net/mattball/vsb9F/
