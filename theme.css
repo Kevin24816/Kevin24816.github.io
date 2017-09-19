@@ -144,7 +144,6 @@
     padding: 10px 0;
 }
 
-/*EDUCATION*/
 .education .title {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
@@ -169,12 +168,56 @@
     margin: auto;
 }
 
-.education .coursework {
+.education .border {
     margin: 30px 0 0 0;
     border-style: solid;
     border-color: aquamarine;
     border-width: 1px;
     padding: 10px;
+}
+
+.education .languages .sub-title {
+    font-size: 18px;
+    color: deepskyblue;
+}
+
+.education .languages ul {
+    list-style-type: none;
+    padding-left: 2%;
+
+}
+
+.education .languages li {
+    display: inline-block;
+    border-radius: 12%;
+    padding: 2.5px;
+    margin: 1% .5% 0 .5%;
+    border-color: #c14434;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 14px;
+}
+
+.education .frameworks .sub-title {
+    font-size: 18px;
+    color: deepskyblue;
+}
+
+.education .frameworks ul {
+    list-style-type: none;
+    padding-left: 2%;
+
+}
+
+.education .frameworks li {
+    display: inline-block;
+    border-radius: 12%;
+    padding: 2.5px;
+    margin: 1% .5% 0 .5%;
+    border-color: #c14434;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 14px;
 }
 
 /*WORK EXPERIENCE*/
@@ -264,8 +307,6 @@
 /*}*/
 
 /*component styles */
-
-
 
 .left {
     width: 40%;
