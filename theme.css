@@ -222,7 +222,7 @@
 
 /*WORK EXPERIENCE*/
 .work-experience {
-    background: url("files/jpmc.jpg") fixed;
+    background: url("files/fb.jpg") fixed;
     background-size: cover;
     position: relative;
 }
@@ -232,7 +232,7 @@
 }
 
 .work-experience .overlay {
-    background: rgba(28, 123, 114, 0.8);
+    background: rgba(14, 165, 255, 0.8);
 }
 
 .work-experience .title {
